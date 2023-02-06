@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+html {
+    color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    color: hsl(186, 14%, 56%);
+    color: hsl(184, 14%, 56%);
+    color: hsl(185, 41%, 84%);
+    color: hsl(189, 41%, 97%);
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(185, 41%, 84%);
+    font-weight: 400;
+}
+
+#splitter {
+    font-size: 2em;
+}
+
+.main {
+    width: 50% !important;
+}
+
+.tip-amount {
+    background: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 15px;
+}
+
+.calc-block {
+    margin-top: 2em;
+    margin-left: 0.2em;
+}
+
+
+.calc-block small {
+    color: hsl(186, 14%, 56%);
+}
+
+.calc-block .sum {
+    color: hsl(172, 67%, 45%);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.button {
+    text-transform: uppercase;
+    width: 95%;
+    background: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input {
+    width: 100%;
+}
+
+.calc {
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+
+.all {
+    padding: 2em;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+#dollar {
+    color: grey;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+}
+
+.form-control {
+    border: none !important;
+    text-align: right;
+    font-size: 1.2em;
+    color: hsl(183, 100%, 15%) !important;
+    font-weight: bold;
+    background-color: hsl(189, 41%, 97%);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid hsl(172, 67%, 45%) !important;
+    outline: 0 none;
+}
+
+#profile svg {
+    color: grey;
+}
+
+#profile {
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+}
+
+.tip-btn {
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+.tip-btn:hover {
+    color: hsl(183, 100%, 15%);
+    font-weight: bold;
+    background-color: hsl(185, 41%, 84%);
+    border: none;
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+.mistake {
+    color: red;
+}
