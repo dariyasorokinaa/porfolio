@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Extra Bold';
+    src: url(assets/fonts/static/Inter-ExtraBold.ttf);
+}
+
+body {
+    font-family: "Inter", serif !important;
+}
+
+#burger {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #burger {
+        display: block;
+    }
+
+    .main-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    #burger {
+        display: none;
+    }
+}
+
+#burger {
+    cursor: pointer;
+}
+#close {
+    cursor: pointer;
+}
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    height: 100%;
+    display: none;
+    background: white;
+}
+
+.mobile-menu li {
+    list-style: none;
+    padding: 0.7em 0.4em 0.7em 0.4em;
+}
+
+.mobile-menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mobile-menu li a:hover {
+    text-decoration: none;
+    color: peru;
+}
+
+
+.main-menu li {
+    list-style: none;
+    display: inline;
+    color: dimgray;
+    padding-right: 1em;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-menu li a:hover {
+    text-decoration: none;
+    color: peru;
+}
+
+.main-menu ul {
+    padding: 13px;
+}
+
+header img {
+    width: 50%;
+}
+
+.main-block img {
+    width: 100%;
+}
+
+.article img {
+    width: 30%;
+    height: inherit;
+    padding-right: 1.5em;
+}
+
+.article .content h4 {
+    color: lightgray;
+}
+
+.content {
+    padding-right: 3.3em;
+}
+
+#article-title {
+    font-family: "Inter Extra Bold", serif;
+}
+
+article {
+    color: white;
+}
+
+article li {
+    list-style: none;
+    margin: 2em 0 2em 0;
+}
+
+article h3 {
+    color: peru;
+    font-family: 'Inter Bold', serif
+}
+
+.button {
+    color: white;
+    background-color: indianred;
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5em 2em 0.5em 2em;
+    letter-spacing: 5px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
