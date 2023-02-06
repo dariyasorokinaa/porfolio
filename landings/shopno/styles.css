@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;600&family=Raleway&display=swap');
+
+
+header {
+  background-color: #eff0f2;
+  padding: 5% 0;
+}
+mark {
+  background-color: #b2f2ee;
+}
+h1 {
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.902);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.737;
+  z-index: 52;
+}
+.Say_Hello_to_SHOPNO_ {
+  margin-top: 10%;
+  font-size: 45px;
+  font-family: "Montserrat";
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+  z-index: 18;
+}
+.Agency_CORPORATE_SHOPNO_Theme {
+  font-size: 45px;
+  font-family: "Montserrat";
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+  z-index: 23;
+}
+.CONTACT_US {
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.749);
+  text-transform: uppercase;
+  line-height: 1.556;
+  z-index: 27;
+}
+.Button {
+  margin-top: 8%;
+  background-color: #eff0f2;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 2px;
+  opacity: 0.502;
+  z-index: 26;
+  width:200px;
+  padding-top:10px;
+  height: 50px;
+}
+
+.container-fluid.bg:nth-child(even){
+  background-color: #f8fafa;
+}
+.container-fluid.bg:nth-child(odd){
+  background-color: white;
+}
+.block {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.h1-after {
+  margin-top:10px;
+  font-size: 18px;
+  font-family: "Merriweather";
+  color: rgba(0, 0, 0, 0.62);
+  text-transform: uppercase;
+  line-height: 1.556;
+  text-align: center;
+  z-index: 53;
+}
+
+.carousel-item img {
+  border-radius: 25px;
+}
+.carousel-indicators {
+  bottom: -50px !important;
+}
+.carousel-indicators li {
+  background-color: #d0d0d0;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-top: 300px !important;
+}
+li.active{
+  background-color: #b2f2ee !important;
+}
+
+.headline {
+  font-size: 20px;
+  font-family: "Merriweather";
+  color: rgba(0, 0, 0, 0.749);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+  z-index: 46;
+}
+.headline-after {
+  font-size: 16px;
+  position: relative;
+  font-family: "Raleway";
+  color: rgba(0, 0, 0, 0.741);
+  line-height: 1.75;
+  z-index: 45;
+}
+
+.works .row .col-4 {
+  padding: 3px !important;
+}
+
+.services {
+  display: inline;
+  margin:10px;
+}
+.black-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+.services-box{
+  position: relative;
+  padding: 0 !important;
+  margin-bottom: 15px;
+}
+.services-text-box {
+  width: 500px;
+  height: 500px;
+  vertical-align: middle;
+}
+.services-headline {
+  font-size: 20px;
+  font-family: "Merriweather";
+  color: rgba(255, 255, 255, 0.949);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.45;
+  text-align: left;
+  padding: 5%;
+  z-index: 94;
+}
+.services-headline-after {
+  font-size: 16px;
+  font-family: "Raleway";
+  color: rgba(255, 255, 255, 0.902);
+  line-height: 1.563;
+  text-align: left;
+  padding: 5%;
+  z-index: 95;
+}
+.know-more {
+  font-size: 18px;
+  font-family: "Raleway";
+  color: rgba(249, 251, 251, 0.902);
+  text-transform: uppercase;
+  line-height: 4.722;
+  text-align: center;
+  padding: 5%;
+  z-index: 92;
+}
+
+.name {
+  font-size: 20px;
+  font-family: "Merriweather";
+  color: rgba(0, 0, 0, 0.949);
+  font-weight: bold;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 223;
+}
+.prof{
+  font-size: 20px;
+  font-family: "Merriweather";
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 223;
+}
+.team-text {
+  font-size: 16px;
+  font-family: "Raleway";
+  color: rgba(0, 0, 0, 0.702);
+  line-height: 1.688;
+  text-align: center;
+  z-index: 215;
+}
+
+.map-block {
+  background: url('img/map-bg.png') no-repeat 100%;
+  width: 100%;
+  height:100%;
+}
+.white-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.7);
+}
+.form-block-bg {
+  padding:5%;
+  background-color: rgba(0,0,0,0.5);
+}
+input {
+  margin-bottom: 5%;
+  background-color: rgba(0,0,0,0.01) !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(255,255,255,0.5) !important;
+  border-radius: 0px !important;
+}
+input::-webkit-input-placeholder {
+  font-size: 15px!important;
+  font-family: "Raleway"!important;
+  color: rgba(255, 255, 255, 0.6)!important;
+  line-height: 3.4;
+  z-index: 258;
+}
+input:-ms-input-placeholder {
+  font-size: 15px!important;
+  font-family: "Raleway"!important;
+  color: rgba(255, 255, 255, 0.6)!important;
+  line-height: 3.4;
+  z-index: 258;
+}
+input::-ms-input-placeholder {
+  font-size: 15px!important;
+  font-family: "Raleway"!important;
+  color: rgba(255, 255, 255, 0.6)!important;
+  line-height: 3.4;
+  z-index: 258;
+}
+input::placeholder {
+  font-size: 15px!important;
+  font-family: "Raleway"!important;
+  color: rgba(255, 255, 255, 0.6)!important;
+  line-height: 3.4;
+  z-index: 258;
+}
+#inputMessage {
+  height:150px;
+}
+#send-m{
+  font-size: 18px !important;
+  font-family: "Montserrat" !important;
+  color: rgba(0, 0, 0, 0.702) !important;
+  text-transform: uppercase !important;
+  line-height: 1.556 !important;
+  z-index: 271;
+  border-radius: 2px !important;
+  background-color: rgb(110, 238, 228);
+  width: 244px;
+  height: 53px;
+  z-index: 270;
+}
+
+.form-text{
+  font-size: 15px;
+  font-family: "Raleway";
+  color: rgba(255, 255, 255, 0.702);
+  line-height: 1.6;
+  margin-bottom: 0 !important;
+  z-index: 248;
+}
+.form-text a {
+  color: rgba(255, 255, 255, 0.702);
+}
+
+footer {
+  background-color: rgb(38, 43, 46);
+}
+#follow-us {
+  font-size: 16px;
+  font-family: "Raleway";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.563;
+  text-transform: uppercase;
+  z-index: 277;
+}
+footer .container {
+  text-align: center;
+  width: 50%;
+}
+i.fa {
+  background-color: rgb(138, 138, 138);
+  opacity: 0.4;
+  color: rgb(250, 244, 244);
+  font-size: 20px;
+  padding-top: 12px;
+  width: 46px;
+  height: 40px;
+}
+i.fa:hover {
+  color: rgba(0, 0, 0, 0.949);
+  background-color: #6eeee4;
+  font-size: 20px;
+  padding-top: 12px;
+  width: 46px;
+  height: 40px;
+}
