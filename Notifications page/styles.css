@@ -1,0 +1,100 @@
+html {
+    color: hsl(210, 60%, 98%);
+    color: hsl(211, 68%, 94%);
+    color: hsl(205, 33%, 90%);
+    color: hsl(219, 14%, 63%);
+    color: hsl(219, 12%, 42%);
+    color: hsl(224, 21%, 14%);
+}
+
+
+.container {
+    width: 70% !important;
+    background: white !important;
+    -webkit-box-shadow: 3px 6px 17px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 3px 6px 17px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 3px 6px 17px 0px rgba(34, 60, 80, 0.2);
+}
+
+.badge {
+    background-color: hsl(219, 85%, 26%);
+}
+
+body {
+    background: hsl(210, 60%, 98%) !important;
+}
+
+.read {
+    cursor: pointer;
+}
+
+.read:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+a {
+    cursor: pointer;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    color: hsl(219, 12%, 42%) !important;
+}
+
+a:hover {
+    color: hsl(219, 85%, 26%)  !important;
+}
+
+img {
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+
+.msg {
+    border: 1px solid hsl(205, 33%, 90%);
+    border-radius: 5px;
+    padding: 1em;
+    margin-right: 1em;
+    margin-left: 5em;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+
+.msg:hover {
+    background: hsl(205, 33%, 90%);
+}
+
+.pic {
+    width: 3em;
+    height: 3em;
+    margin-left: 8em;
+}
+
+.profile-link {
+    cursor: pointer;
+    color: hsl(224, 21%, 14%);
+    text-decoration: none;
+}
+
+.profile-link:hover {
+    color: hsl(219, 85%, 26%)  !important;
+}
+
+.unread {
+    background: hsl(210, 60%, 98%);
+    padding-top: 1.5em;
+    border-radius: 5px;
+    margin-bottom: 0.8em;
+    transition: transform 3s;
+}
+
+.circle {
+    background: red;
+    position: absolute;
+    width: 0.7em;
+    height: 0.7em;
+    margin-left: 0.6em;
+    margin-top: 0.5em;
+    border-radius: 100%;
+}
